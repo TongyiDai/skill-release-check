@@ -1,7 +1,5 @@
 # Skill 开源就绪检查 · skill-release-check
 
-> "If I have seen further it is by standing on the shoulders of Giants." — Isaac Newton
-
 <p align="center">
   <img src="https://img.shields.io/badge/Agent%20Skill-agentskills.io-2F6BFF" alt="Agent Skill">
   <img src="https://img.shields.io/badge/license-MIT-3fb950" alt="License MIT">
@@ -9,6 +7,8 @@
   <img src="https://img.shields.io/badge/dependencies-zero-2F6BFF" alt="Zero dependencies">
   <img src="https://img.shields.io/badge/works%20with-Codex%20|%20Claude%20|%20Cursor%20|%20TRAE-555" alt="Works with major agents">
 </p>
+
+> "If I have seen further it is by standing on the shoulders of Giants." — Isaac Newton
 
 一个 agent-agnostic 的检查器：在把 Agent Skill 公开开源前，判断它是否**能被正确触发、跨 agent 可移植、健壮、且不泄露隐私或缺失许可证**。标准即代码——一份可读标准（[references/standard.md](references/standard.md)）配一个零依赖校验脚本，两端共用。
 
