@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill 开源就绪检查"
+  short_description: "发布前检查 skill 的结构、可移植性、隐私与许可证"
+  default_prompt: "使用 $skill-release-check 检查这个 skill 目录是否达到开源发布标准，先跑校验器，再列出必须人工复核的隐私项。"
