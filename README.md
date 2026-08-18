@@ -1,4 +1,4 @@
-# Skill 开源就绪检查 · skill-release-check
+<h1 align="center">Skill 开源就绪检查 · skill-release-check</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Agent%20Skill-agentskills.io-2F6BFF" alt="Agent Skill">
