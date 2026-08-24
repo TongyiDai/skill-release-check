@@ -13,6 +13,12 @@
 
 一个 agent-agnostic 的检查器：在把 Agent Skill 公开开源前，判断它是否**能被正确触发、跨 agent 可移植、健壮、且不泄露隐私或缺失许可证**。标准即代码——一份可读标准（[references/standard.md](references/standard.md)）配一个零依赖校验脚本，两端共用。
 
+<p align="center">
+  <img src="assets/skill-release-check-demo.gif" alt="对着一个 skill 目录一键过筛：结构 / 可移植性 / 隐私 / 许可证" width="900" />
+</p>
+
+<p align="center"><sub>对着一个 skill 目录一键过筛：结构 / 可移植性 / 隐私 / 许可证</sub></p>
+
 ## 为什么需要它
 
 Skill 写得对不对，和"能不能安全开源"是两件事。真实审计里反复出现的开源事故是同一批：缺 LICENSE、示例里带真实同事姓名或内部工具名、脚本写死了某台机器的 `/Users/...` 路径。这些问题在发布那一刻才发现就要返工——本工具把标准提前到「创建时自检」和「发布时强制门」两个关口，单一来源，不漂移。
